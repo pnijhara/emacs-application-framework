@@ -51,8 +51,7 @@ EAF是一个可编程扩展的框架，你可以开发自己的Qt5应用并集�
 1. 安装EAF依赖库:
 
 ```Bash
-sudo pacman -S python-pyqt5 python-pyqt5-sip python-pyqtwebengine python-qrcode python-feedparser
- python-markdown nodejs aria2 libreoffice filebrowser
+sudo pacman -S python-pyqt5 python-pyqt5-sip python-pyqtwebengine python-qrcode python-feedparser python-markdown nodejs aria2 libreoffice filebrowser qt5-websockets
 yay -S python-pymupdf python-grip
 ```
 

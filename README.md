@@ -52,7 +52,7 @@ EAF is an extensible framework, one can develop any Qt5 application and integrat
 1. Install EAF dependencies:
 
 ```Bash
-sudo pacman -S python-pyqt5 python-pyqt5-sip python-pyqtwebengine python-qrcode python-feedparser python-markdown nodejs aria2 libreoffice filebrowser
+sudo pacman -S python-pyqt5 python-pyqt5-sip python-pyqtwebengine python-qrcode python-feedparser python-markdown nodejs aria2 libreoffice filebrowser qt5-websockets
 yay -S python-pymupdf python-grip
 ```
 
