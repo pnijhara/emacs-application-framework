@@ -73,7 +73,7 @@ class MermaidPreprocessor(Preprocessor):
 class MermaidExtension(Extension):
     """ Add source code hilighting to markdown codeblocks. """
 
-    def extendMarkdown(self, md, md_globals):
+    def extendMarkdown(self, md, _md_globals):
         """ Add HilitePostprocessor to Markdown instance. """
         # Insert a preprocessor before ReferencePreprocessor
         md.preprocessors.register(MermaidPreprocessor(md), 'mermaid', 35)
